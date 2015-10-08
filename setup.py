@@ -1,6 +1,7 @@
+from setuptools import setup, find_packages
+
 __author__ = 'valeriy.ilihmetov'
 
-from distutils.core import setup
 
 setup(
     name='oauthio-python',
@@ -12,5 +13,6 @@ setup(
     download_url='https://github.com',
     keywords=['oauthio', 'oauthd'],
     classifiers=[],
-
+    packages=find_packages(),
+    install_requires=['requests>=2.8.0'],
 )
