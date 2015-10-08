@@ -5,7 +5,7 @@ __author__ = 'valeriy.ilihmetov'
 
 setup(
     name='oauthio-python',
-    packages=['oauthio-python'],
+    packages=['oauthio_python'],
     version='0.1',
     description='OAuth.io backend authorisation',
     author_email='ilikhmetov@gmail.com',
